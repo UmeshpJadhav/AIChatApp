@@ -8,7 +8,7 @@ import { config } from './src/config/config';
 const server = http.createServer(app);
 
 const startServer = () => {
-    const port = Number(config.port) || 3000; // Ensure it's a number
+    const port = Number(config.port) || 5000; // Ensure it's a number
 
     server.listen(port, () => {
         console.log(`🚀 Server is running on port ${port}`);
