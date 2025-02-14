@@ -1,6 +1,5 @@
 import http from 'http';
-import dotenv from 'dotenv';
-dotenv.config();  // Ensure dotenv is loaded before config
+  // Ensure dotenv is loaded before config
 
 import app from './src/app';
 import { config } from './src/config/config';

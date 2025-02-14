@@ -1,5 +1,7 @@
 import express from "express";
 import morgan from 'morgan';
+import connectDB  from "./config/db";
+connectDB();
 
 const app = express();
 
